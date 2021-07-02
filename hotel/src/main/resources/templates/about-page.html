@@ -1,0 +1,133 @@
+<html xmlns:th="www.thymeleaf.org">
+
+ <head>
+   
+    <title>Home Page</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+ </head>
+
+ <body>
+   
+   <div class="container">
+   
+   <header>
+   
+   <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <a class="navbar-brand" th:href="@{/}">IBIS HOTEL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" th:href="@{/}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/about}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Book Room</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Room List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/register}">Register</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" th:href="@{/login}">Login</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="header-about-page">
+    <h1 align="center" style="color:white;">About IBIS HOTEL</h1>
+    
+  </div>
+
+</header>
+<hr>
+
+<p align="justify">First of all, I would like to express my special thanks to Mrs. Cao Thi Nhan and Mr. Trinh Trong Tin (System Design Analysis Teacher) for providing knowledge, giving advice and valuable ideas to the group to complete the course project. </p>
+
+<p align="justify">Starting from the purpose of learning, deepening the knowledge of information system design and analysis, as well as learning more deeply about the hotel business process, our team has implemented the project " Hotel management system design”. During the implementation of the project, on the basis of the knowledge provided by the teachers at school, combined with self-study of new tools and knowledge, the team tried to implement the project in a good way. Best. Although the project is incomplete and has many errors, it is the result of the efforts of the team members, the help of all friends and teachers. The group is looking forward to receiving comments from teachers to draw valuable experiences and improve knowledge so that the group can continue to complete other projects in the future.
+</p>
+
+
+<hr>
+
+<section class="footer">
+
+<div class="container">
+          
+  <div class="row">
+
+<div class="col-md-4">
+
+<h4>Features</h4>
+
+<p>Room Management</p>
+
+
+<p>Book Management</p>
+
+<p>User Management</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h4>IBIS Hotel Management</h4>
+
+
+<p> <i class="fa fa-phone-square" ></i> +8411111111</p>
+
+<p> <i class="fa fa-enevelople" ></i>ibishotel@gmail.com</p>
+
+<p> <i class="fa fa-home" ></i> Tuy Hoa City</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h4>Browse Pages</h4>
+
+<p>Registration</p>
+
+<p>Book Room</p>
+
+<p>Room Lists</p>
+
+</div>
+
+</div></div>
+
+<hr>
+
+
+</section>
+
+
+</div>
+
+</body>
+
+</html>
